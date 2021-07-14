@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+       <div class="topbar">
+           <div class="logo">
+               <img src="http://placehold.it/20×20">
+           </div>
+           <div class="menu">
+            <ul>
+                <li>
+                    < a href="">
+                 <span class="menu1">home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">about</a>
+                </li>
+                <li>
+                    <a href="">login</a>
+                </li>
+                <li>
+                    <a href="register"></a>
+                </li>
+            </ul>
+           </div>
+</div>
+<div class="banner">
+</div>
+<div class="container"></div>   
+       <div class="pic"></div> 
+     <p class="para1">
+        lorem ipsm dolor,sit amet consectetur adipisicing elit.inventore sapiente molestiae explicabo veritatis debits nesstiaus?
+</p>
+<div class="pic"></div>
+<p> lorem ipsm dolor,sit amet consectetur adipisicing elit.inventore sapiente molestiae explicabo veritatis debits nesstiaus?
+</p>
+</body>
+
+</html>  
+body{
+    margin: 0;
+}
+.topbar{
+    background-color: crimson;
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+    padding-right: 25px;
+}
+.menu>ul>li{
+    display:inline;
+    padding-left:25px;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: gold;
+}
+.menu>ul>li>a:hover{
+    color:red;
+}
+.logo{
+    padding-left: 20px;
+    padding-right: 11px;
+}
+.banner{
+    height: 400px;
+    overflow: hidden;
+    background:url("https://despositphotos.com/stock-photos/beatiful-nature.html");
+    background-size: cover;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.container>div{
+    text-align: webkit-center;
+    width: 33%;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+    background-color: goldenrod;
+    border-radius: 50px;
+}
